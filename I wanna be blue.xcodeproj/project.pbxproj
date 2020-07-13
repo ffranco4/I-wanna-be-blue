@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA578C724BCBD63002A4D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA578C624BCBD63002A4D63 /* AppDelegate.swift */; };
+		3FA578C924BCBD63002A4D63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA578C824BCBD63002A4D63 /* SceneDelegate.swift */; };
+		3FA578CB24BCBD63002A4D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA578CA24BCBD63002A4D63 /* ViewController.swift */; };
+		3FA578CE24BCBD63002A4D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA578CC24BCBD63002A4D63 /* Main.storyboard */; };
+		3FA578D124BCBD63002A4D63 /* I_wanna_be_blue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FA578CF24BCBD63002A4D63 /* I_wanna_be_blue.xcdatamodeld */; };
+		3FA578D324BCBD64002A4D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA578D224BCBD64002A4D63 /* Assets.xcassets */; };
+		3FA578D624BCBD64002A4D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA578D424BCBD64002A4D63 /* LaunchScreen.storyboard */; };
+		3FA578E124BCBD64002A4D63 /* I_wanna_be_blueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA578E024BCBD64002A4D63 /* I_wanna_be_blueTests.swift */; };
+		3FA578EC24BCBD64002A4D63 /* I_wanna_be_blueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA578EB24BCBD64002A4D63 /* I_wanna_be_blueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA578DD24BCBD64002A4D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA578BB24BCBD63002A4D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA578C224BCBD63002A4D63;
+			remoteInfo = "I wanna be blue";
+		};
+		3FA578E824BCBD64002A4D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA578BB24BCBD63002A4D63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA578C224BCBD63002A4D63;
+			remoteInfo = "I wanna be blue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA578C324BCBD63002A4D63 /* I wanna be blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I wanna be blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA578C624BCBD63002A4D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA578C824BCBD63002A4D63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FA578CA24BCBD63002A4D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA578CD24BCBD63002A4D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA578D024BCBD63002A4D63 /* I_wanna_be_blue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = I_wanna_be_blue.xcdatamodel; sourceTree = "<group>"; };
+		3FA578D224BCBD64002A4D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA578D524BCBD64002A4D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA578D724BCBD64002A4D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA578DC24BCBD64002A4D63 /* I wanna be blueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I wanna be blueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA578E024BCBD64002A4D63 /* I_wanna_be_blueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_wanna_be_blueTests.swift; sourceTree = "<group>"; };
+		3FA578E224BCBD64002A4D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA578E724BCBD64002A4D63 /* I wanna be blueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I wanna be blueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA578EB24BCBD64002A4D63 /* I_wanna_be_blueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_wanna_be_blueUITests.swift; sourceTree = "<group>"; };
+		3FA578ED24BCBD64002A4D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA578C024BCBD63002A4D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA578D924BCBD64002A4D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA578E424BCBD64002A4D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA578BA24BCBD63002A4D63 = {
+			isa = PBXGroup;
+			children = (
+				3FA578C524BCBD63002A4D63 /* I wanna be blue */,
+				3FA578DF24BCBD64002A4D63 /* I wanna be blueTests */,
+				3FA578EA24BCBD64002A4D63 /* I wanna be blueUITests */,
+				3FA578C424BCBD63002A4D63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA578C424BCBD63002A4D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA578C324BCBD63002A4D63 /* I wanna be blue.app */,
+				3FA578DC24BCBD64002A4D63 /* I wanna be blueTests.xctest */,
+				3FA578E724BCBD64002A4D63 /* I wanna be blueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA578C524BCBD63002A4D63 /* I wanna be blue */ = {
+			isa = PBXGroup;
+			children = (
+				3FA578C624BCBD63002A4D63 /* AppDelegate.swift */,
+				3FA578C824BCBD63002A4D63 /* SceneDelegate.swift */,
+				3FA578CA24BCBD63002A4D63 /* ViewController.swift */,
+				3FA578CC24BCBD63002A4D63 /* Main.storyboard */,
+				3FA578D224BCBD64002A4D63 /* Assets.xcassets */,
+				3FA578D424BCBD64002A4D63 /* LaunchScreen.storyboard */,
+				3FA578D724BCBD64002A4D63 /* Info.plist */,
+				3FA578CF24BCBD63002A4D63 /* I_wanna_be_blue.xcdatamodeld */,
+			);
+			path = "I wanna be blue";
+			sourceTree = "<group>";
+		};
+		3FA578DF24BCBD64002A4D63 /* I wanna be blueTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA578E024BCBD64002A4D63 /* I_wanna_be_blueTests.swift */,
+				3FA578E224BCBD64002A4D63 /* Info.plist */,
+			);
+			path = "I wanna be blueTests";
+			sourceTree = "<group>";
+		};
+		3FA578EA24BCBD64002A4D63 /* I wanna be blueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA578EB24BCBD64002A4D63 /* I_wanna_be_blueUITests.swift */,
+				3FA578ED24BCBD64002A4D63 /* Info.plist */,
+			);
+			path = "I wanna be blueUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA578C224BCBD63002A4D63 /* I wanna be blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA578F024BCBD64002A4D63 /* Build configuration list for PBXNativeTarget "I wanna be blue" */;
+			buildPhases = (
+				3FA578BF24BCBD63002A4D63 /* Sources */,
+				3FA578C024BCBD63002A4D63 /* Frameworks */,
+				3FA578C124BCBD63002A4D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I wanna be blue";
+			productName = "I wanna be blue";
+			productReference = 3FA578C324BCBD63002A4D63 /* I wanna be blue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA578DB24BCBD64002A4D63 /* I wanna be blueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA578F324BCBD64002A4D63 /* Build configuration list for PBXNativeTarget "I wanna be blueTests" */;
+			buildPhases = (
+				3FA578D824BCBD64002A4D63 /* Sources */,
+				3FA578D924BCBD64002A4D63 /* Frameworks */,
+				3FA578DA24BCBD64002A4D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA578DE24BCBD64002A4D63 /* PBXTargetDependency */,
+			);
+			name = "I wanna be blueTests";
+			productName = "I wanna be blueTests";
+			productReference = 3FA578DC24BCBD64002A4D63 /* I wanna be blueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA578E624BCBD64002A4D63 /* I wanna be blueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA578F624BCBD64002A4D63 /* Build configuration list for PBXNativeTarget "I wanna be blueUITests" */;
+			buildPhases = (
+				3FA578E324BCBD64002A4D63 /* Sources */,
+				3FA578E424BCBD64002A4D63 /* Frameworks */,
+				3FA578E524BCBD64002A4D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA578E924BCBD64002A4D63 /* PBXTargetDependency */,
+			);
+			name = "I wanna be blueUITests";
+			productName = "I wanna be blueUITests";
+			productReference = 3FA578E724BCBD64002A4D63 /* I wanna be blueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA578BB24BCBD63002A4D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3FA578C224BCBD63002A4D63 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					3FA578DB24BCBD64002A4D63 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3FA578C224BCBD63002A4D63;
+					};
+					3FA578E624BCBD64002A4D63 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3FA578C224BCBD63002A4D63;
+					};
+				};
+			};
+			buildConfigurationList = 3FA578BE24BCBD63002A4D63 /* Build configuration list for PBXProject "I wanna be blue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA578BA24BCBD63002A4D63;
+			productRefGroup = 3FA578C424BCBD63002A4D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA578C224BCBD63002A4D63 /* I wanna be blue */,
+				3FA578DB24BCBD64002A4D63 /* I wanna be blueTests */,
+				3FA578E624BCBD64002A4D63 /* I wanna be blueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA578C124BCBD63002A4D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA578D624BCBD64002A4D63 /* LaunchScreen.storyboard in Resources */,
+				3FA578D324BCBD64002A4D63 /* Assets.xcassets in Resources */,
+				3FA578CE24BCBD63002A4D63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA578DA24BCBD64002A4D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA578E524BCBD64002A4D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA578BF24BCBD63002A4D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA578CB24BCBD63002A4D63 /* ViewController.swift in Sources */,
+				3FA578C724BCBD63002A4D63 /* AppDelegate.swift in Sources */,
+				3FA578D124BCBD63002A4D63 /* I_wanna_be_blue.xcdatamodeld in Sources */,
+				3FA578C924BCBD63002A4D63 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA578D824BCBD64002A4D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA578E124BCBD64002A4D63 /* I_wanna_be_blueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA578E324BCBD64002A4D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA578EC24BCBD64002A4D63 /* I_wanna_be_blueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA578DE24BCBD64002A4D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA578C224BCBD63002A4D63 /* I wanna be blue */;
+			targetProxy = 3FA578DD24BCBD64002A4D63 /* PBXContainerItemProxy */;
+		};
+		3FA578E924BCBD64002A4D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA578C224BCBD63002A4D63 /* I wanna be blue */;
+			targetProxy = 3FA578E824BCBD64002A4D63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA578CC24BCBD63002A4D63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA578CD24BCBD63002A4D63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA578D424BCBD64002A4D63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA578D524BCBD64002A4D63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA578EE24BCBD64002A4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FA578EF24BCBD64002A4D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA578F124BCBD64002A4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M7SFFZTKZ;
+				INFOPLIST_FILE = "I wanna be blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fil.Ican-t-breath.I-wanna-be-blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA578F224BCBD64002A4D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M7SFFZTKZ;
+				INFOPLIST_FILE = "I wanna be blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fil.Ican-t-breath.I-wanna-be-blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FA578F424BCBD64002A4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M7SFFZTKZ;
+				INFOPLIST_FILE = "I wanna be blueTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fil.Ican-t-breath.I-wanna-be-blueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I wanna be blue.app/I wanna be blue";
+			};
+			name = Debug;
+		};
+		3FA578F524BCBD64002A4D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M7SFFZTKZ;
+				INFOPLIST_FILE = "I wanna be blueTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fil.Ican-t-breath.I-wanna-be-blueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I wanna be blue.app/I wanna be blue";
+			};
+			name = Release;
+		};
+		3FA578F724BCBD64002A4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M7SFFZTKZ;
+				INFOPLIST_FILE = "I wanna be blueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fil.Ican-t-breath.I-wanna-be-blueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I wanna be blue";
+			};
+			name = Debug;
+		};
+		3FA578F824BCBD64002A4D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M7SFFZTKZ;
+				INFOPLIST_FILE = "I wanna be blueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fil.Ican-t-breath.I-wanna-be-blueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I wanna be blue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA578BE24BCBD63002A4D63 /* Build configuration list for PBXProject "I wanna be blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA578EE24BCBD64002A4D63 /* Debug */,
+				3FA578EF24BCBD64002A4D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA578F024BCBD64002A4D63 /* Build configuration list for PBXNativeTarget "I wanna be blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA578F124BCBD64002A4D63 /* Debug */,
+				3FA578F224BCBD64002A4D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA578F324BCBD64002A4D63 /* Build configuration list for PBXNativeTarget "I wanna be blueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA578F424BCBD64002A4D63 /* Debug */,
+				3FA578F524BCBD64002A4D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA578F624BCBD64002A4D63 /* Build configuration list for PBXNativeTarget "I wanna be blueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA578F724BCBD64002A4D63 /* Debug */,
+				3FA578F824BCBD64002A4D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FA578CF24BCBD63002A4D63 /* I_wanna_be_blue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FA578D024BCBD63002A4D63 /* I_wanna_be_blue.xcdatamodel */,
+			);
+			currentVersion = 3FA578D024BCBD63002A4D63 /* I_wanna_be_blue.xcdatamodel */;
+			path = I_wanna_be_blue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FA578BB24BCBD63002A4D63 /* Project object */;
+}
